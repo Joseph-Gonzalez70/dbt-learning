@@ -1,0 +1,8 @@
+
+new_project_test/target/
+new_project_test/dbt_packages/
+new_project_test/logs/
+.venv
+test 
+test/
+.env
