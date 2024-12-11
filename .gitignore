@@ -2,6 +2,7 @@
 new_project_test/target/
 new_project_test/dbt_packages/
 new_project_test/logs/
+logs/
 .venv
 test 
 test/
