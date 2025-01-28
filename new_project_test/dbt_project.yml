@@ -35,7 +35,11 @@ models:
     marts:
       marketing:  # Add this if you plan to include marketing models
         +materialized: table
+      finance:  # Add this if you plan to include finance models
+        +materialized: table
     staging:
       jaffle_shop:  # Add this if you plan to include jaffle_shop models
+        +materialized: view
+      stripe:  # Add this if you plan to include stripe models
         +materialized: view
 
